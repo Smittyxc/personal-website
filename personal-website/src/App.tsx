@@ -1,11 +1,15 @@
-import './App.css'
+import React from "react";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import Home from "./pages/home.tsx";
 
 function App() {
 
   return (
-    <>
-      <h1>Matt</h1>
-    </>
+  <BrowserRouter>
+  <Routes>
+    <Route path="/" element={<Home />}/>
+  </Routes>
+  </BrowserRouter>
   )
 }
 
