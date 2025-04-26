@@ -2,15 +2,22 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <nav className="bg-gray-700 border-gray-200">
-            <div className="max-w-screen-xl flex flex-wrap items-center">
-                <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse"></NavLink>
-                    <img src="./assets/leaf.png" className="h-8"/>
-            </div>
-            <div className="hidden w-full md:block md:w-auto">
-                <NavLink to="/about" className="block py-2 px-3 text-white rounded-sm hover:bg-green-100 md:hover:bg-transparent md:border-0 md:hover:text-green-100 md:p-0">About</NavLink>
-
-                <NavLink to="/resume" className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-green-100 md:hover:bg-transparent md:border-0 md:hover:text-green-100 md:p-0">Resume</NavLink>
+        <nav className="bg-neutral-800 text-lg md:text-xl lg:text-2xl items-center">
+            <div className="h-2 bg-gradient-to-r from-green-950 via-green-600 to-green-950"></div>
+            <div className="flex justify-between items-center">
+                <NavLink to="/" className="flex items-center space-x-3">
+                        <img src=".\src\assets\leaf.png" className="h-12 m-2"/>
+                </NavLink>
+                <div className="ml auto space-x-4 flex mr-2 font-semibold">
+                    <NavLink to="/about" className="py-2 px-3 text-white rounded-sm hover:bg-neutral-600 focus:outline-2 focus:outline-offset-1 focus:outline-green-800">About</NavLink>
+                    <NavLink to="/resume" className="py-2 px-3 text-white rounded-sm hover:bg-neutral-600 focus:outline-2 focus:outline-offset-1 focus:outline-green-800">Resume</NavLink>
+                    <NavLink to="/Media" className="py-2 px-3 text-white rounded-sm hover:bg-neutral-600 focus:outline-2 focus:outline-offset-1 focus:outline-green-800">Media</NavLink>
+                    <div className="flex h-auto w-px bg-neutral-400"></div>
+                    <NavLink to="https://github.com/Smittyxc" className="flex py-2 px-3 items-center text-white rounded-sm bg-green-700 hover:bg-green-900 focus:outline-2 focus:outline-offset-1 focus:outline-green-800">
+                        <img src=".\src\assets\github.svg" className="h-6 mr-3"></img>
+                        <span>GitHub</span>
+                    </NavLink>
+                </div>
             </div>
         </nav>
     )
