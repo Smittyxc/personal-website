@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout.tsx";
-import Home from "./pages/Home.tsx";
-import About from "./pages/About.tsx";
-import Resume from "./pages/Resume.tsx";
-import Media from "./pages/Media"
+import Home from "./pages/home.tsx";
+import About from "./pages/about.tsx";
+import Resume from "./pages/resume.tsx";
+import Media from "./pages/Media.tsx"
 
 function App() {
 
