@@ -1,4 +1,8 @@
 export default function Resume() {
+    function handleClick() {
+        window.print();
+
+    }
     return (
         <>
             <div className="flex justify-between items-center border-b-1 border-b-gray-400 mt-16">
@@ -104,7 +108,9 @@ export default function Resume() {
                     
                 </div>
             </section>
-
+            <div className="flex justify-center">
+                <button onClick={handleClick} className="bg-lime-700 hover:bg-lime-800 print:hidden text-white font-bold py-2 px-4 rounded">Print</button>
+            </div>
         </>
     )
 }
