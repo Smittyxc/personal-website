@@ -1,11 +1,5 @@
-import { Link
-
- } from "react-router-dom";
+import { Link } from "react-router-dom";
 export default function Resume() {
-    function handleClick() {
-        window.print();
-
-    }
     return (
         <>
             <div className="flex justify-between items-center border-b-1 border-b-gray-400 mt-16">
