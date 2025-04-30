@@ -26,14 +26,14 @@ export default function Projects() {
             <div className="pt-16 flex flex-col justify-center">
                 <div className="bg-gradient-to-r from-lime-900 to-lime-700  w-full flex flex-col items-center rounded-2xl p-8">
                     <p className="text-white text-3xl text-shadow-lg font-extrabold mb-3">CMS Quality Indicator Database</p>
-                    <div className="flex flex-wrap mb-3 w-fit rounded p-0.5">
+                    <div className="flex flex-wrap mb-4 w-fit rounded p-0.5">
                         <p className="bg-white shadow font-bold text-lime-800 text-lg rounded p-0.5 mr-2 ml-2 bounce-once">Python</p>
                         <p className="bg-white shadow font-bold text-lime-800 text-lg rounded p-0.5 mr-2 ml-2 bounce-once">Pandas</p>
                         <p className="bg-white  shadow-black-30 font-bold text-lime-800 text-lg rounded p-0.5 mr-2 ml-2 bounce-once">SQL</p>
                     </div>
                     <div className="flex w-full">
                         <img src="/cms.png" className="h-75 rounded-lg shadow-xl shadow-black/20"></img>
-                        <p className="m-4 p-4 text-white text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nostrum aspernatur beatae molestiae doloribus suscipit adipisci facere exercitationem, rerum fugiat eum odio eius, a perspiciatis amet laudantium, nisi tempora consectetur excepturi!</p>
+                        <p className="m-4 p-4 text-white leading-relaxed text-lg">Using MySQL, an analysis of the Centers for Medicare and Medicaid Value-Based Programs was performed. Although there are many VBPs, the Efficiency and Cost Reduction, Hospital Readmission Reduction, and Disproportionate Share Hospital Programs were selected for this analysis, as insights generate from them could show potential relationships between financial and readmission statistics.</p>
                     </div>
             </div>
             </div>

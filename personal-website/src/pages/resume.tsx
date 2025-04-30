@@ -1,3 +1,6 @@
+import { Link
+
+ } from "react-router-dom";
 export default function Resume() {
     function handleClick() {
         window.print();
@@ -109,7 +112,7 @@ export default function Resume() {
                 </div>
             </section>
             <div className="flex justify-center">
-                <button onClick={handleClick} className="bg-lime-700 hover:bg-lime-800 print:hidden text-white font-bold py-2 px-4 rounded">Print</button>
+                <Link to="/resume.pdf" target="_blank"  className="bg-lime-700 shadow-neutral-400 shadow hover:bg-lime-800 print:hidden text-white font-bold py-2 px-4 rounded" download>Download</Link>
             </div>
         </>
     )
