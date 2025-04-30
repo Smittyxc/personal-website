@@ -4,6 +4,7 @@ import Home from "./pages/home.tsx";
 import About from "./pages/about.tsx";
 import Resume from "./pages/resume.tsx";
 import Media from "./pages/Media.tsx"
+import Projects from "./pages/projects.tsx";
 
 function App() {
 
@@ -15,6 +16,8 @@ function App() {
           <Route path="/about" element={<About />}/>
           <Route path="/resume" element={<Resume />}/>
           <Route path="/Media" element={<Media />}/>
+          <Route path="/projects" element={<Projects />}/>
+
         </Route>
       </Routes>
     </BrowserRouter>

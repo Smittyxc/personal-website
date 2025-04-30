@@ -9,7 +9,7 @@ export default function Layout() {
         <div>
             <NavBar />
             <div className="grid place-items-center min-h-screen bg-neutral-800">
-                <div className={`w-full max-w-4xl p-6 ${isResume ? "bg-white shadow-xl/70" : "bg-neutral-800"}`}>
+                <div className={`w-full max-w-5xl p-6 ${isResume ? "bg-white shadow-xl/70" : "bg-neutral-800"}`}>
                     <Outlet />
                 </div>
             </div>
