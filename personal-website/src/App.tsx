@@ -17,7 +17,7 @@ function App() {
           <Route path="/resume" element={<Resume />}/>
           <Route path="/Media" element={<Media />}/>
           <Route path="/projects" element={<Projects />}/>
-
+      
         </Route>
       </Routes>
     </BrowserRouter>

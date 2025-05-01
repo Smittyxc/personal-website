@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+@theme {
+  --color-greene: #495e35
+}
+
 @keyframes slide-in {
   0% {
     transform: translateY(-50%);
