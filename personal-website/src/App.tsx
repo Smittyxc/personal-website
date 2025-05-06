@@ -5,6 +5,7 @@ import About from "./pages/about.tsx";
 import Resume from "./pages/resume.tsx";
 import Media from "./pages/Media.tsx"
 import Projects from "./pages/projects.tsx";
+import Feedback from "./pages/feedback.tsx";
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
           <Route path="/resume" element={<Resume />}/>
           <Route path="/Media" element={<Media />}/>
           <Route path="/projects" element={<Projects />}/>
-      
+          <Route path="/feedback" element={<Feedback />}/>
+
         </Route>
       </Routes>
     </BrowserRouter>
