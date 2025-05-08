@@ -32,9 +32,6 @@
         setIsOpen(true)
     }
 
-    const setVisible = () => {
-        setIsOpen(true)
-    }
 
 
     
