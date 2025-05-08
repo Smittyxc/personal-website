@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 export default function Resume() {
     return (
         <>
-            <div className="flex justify-between items-center border-b-1 border-b-gray-400 mt-16">
+            <div className="flex justify-between items-center border-b-1 border-b-gray-400 mt-26">
                 <div>
                     <h1 className="text-4xl font-bold">Matt Smith</h1>
                     <p className="text-lg text-gray-700">mattsmith1652@gmail.com</p>

@@ -6,6 +6,7 @@ export default function Rating({ rating, onRatingChange }) {
     };
 
     const starArray = Array(5).fill(null).map((_, index) => index < rating);
+    console.log(starArray)
 
     return (
         <div>

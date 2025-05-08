@@ -25,7 +25,7 @@ export default function Projects() {
             
             <div className="pt-16 flex flex-col justify-center">
                 <div className="bg-neutral-800 shadow-2xl shadow-black/100 w-full flex flex-col items-center rounded-2xl p-8">
-                    <p className="text-white text-3xl text-shadow-lg font-extrabold mb-3">CMS Quality Indicator Database</p>
+                    <p className="text-white text-3xl text-shadow-lg font-bold mb-3">CMS Quality Indicator Database</p>
                     <div className="flex flex-wrap mb-4 w-fit rounded p-0.5">
                         <p className="bg-white shadow font-bold text-lime-800 text-lg rounded p-0.5 mr-2 ml-2 bounce-once">Python</p>
                         <p className="bg-white shadow font-bold text-lime-800 text-lg rounded p-0.5 mr-2 ml-2 bounce-once">Pandas</p>

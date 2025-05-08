@@ -5,14 +5,15 @@ export default function NavBar() {
         <nav className="bg-neutral-800 text-lg md:text-xl lg:text-2xl w-full fixed top-0 z-10">
             <div className="h-2 bg-gradient-to-r from-green-950 via-lime-600 to-lime-950"></div>
             <div className="flex justify-between items-center">
-                <NavLink to="/" className="flex items-center space-x-3">
-                    <img src="/leaf.png" className="h-12 m-2 duration-300 hover:scale-110"/>
+                <NavLink to="/" className="flex items-center space-x-3 ml-6 mt-2 bg-neutral-200 rounded-4xl shadow-lg shadow-black/60">
+                    <img src="/mono.svg" className="h-16  duration-300 hover:scale-110"/>
                 </NavLink>
                 <div className="space-x-4 flex mr-2 font-semibold text-lg">
-                    <NavLink to="/about" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">About</NavLink>
+                    <NavLink to="/about" className="h-fit py-1 px-1 text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">About</NavLink>
                     <NavLink to="/resume" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">Resume</NavLink>
                     <NavLink to="/Media" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700  duration-300 hover:scale-110">Media</NavLink>
                     <NavLink to="/Projects" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">Projects</NavLink>
+                    <NavLink to="/feedback" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">Feedback</NavLink>
 
                     <div className="flex h-auto w-px bg-neutral-400"></div>
                     <NavLink to="https://github.com/Smittyxc" className="flex py-2 px-3 items-center text-white rounded-sm bg-gradient-to-r from-lime-700 to-lime-800 lime-800 hover:bg-lime-900 focus:outline-2 focus:outline-offset-1 focus:outline-lime-800">
