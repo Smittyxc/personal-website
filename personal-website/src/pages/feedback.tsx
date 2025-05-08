@@ -11,7 +11,7 @@
     const [rating, setRating] = useState<number>(0);
     const [isOpen, setIsOpen] = useState(false)
  
-    const handleRatingChange = (userRating) => {
+    const handleRatingChange = (userRating: number) => {
         setRating(userRating)
     };
     

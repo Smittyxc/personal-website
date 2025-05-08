@@ -1,4 +1,11 @@
-export default function Star({ isGold, onClick }) {
+import { MouseEventHandler } from 'react';
+
+interface starProps {
+    isGold: boolean;
+    onClick: MouseEventHandler<HTMLButtonElement>;
+  }
+
+export default function Star({ isGold, onClick }: starProps) {
      
     return (
         <button type="button" className="duration-200 transition focus:scale-120" onClick={onClick}>
