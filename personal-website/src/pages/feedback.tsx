@@ -48,7 +48,7 @@
                 </div>
                 <div className="mb-6">
                     <label className="block mb-2 text-sm font-medium text-white" htmlFor="name">Feedback</label>
-                    <textarea type="text" id="name" className="border  text-neutral-900 text-sm rounded-lg  inline w-full p-2.5 bg-neutral-300 placeholder-neutral-600" placeholder="..." required 
+                    <textarea id="name" className="border  text-neutral-900 text-sm rounded-lg  inline w-full p-2.5 bg-neutral-300 placeholder-neutral-600" placeholder="..." required 
                     onChange={(e)=>setComment(e.target.value)} />
                 </div>
                 <div className="w-full flex flex-col items-center justify-center">
