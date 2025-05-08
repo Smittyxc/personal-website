@@ -1,7 +1,15 @@
 import Star from "./star";
 
-export default function Rating({ rating, onRatingChange }) {
-    const handleStarClick = (userRating) => {
+interface RatingProps {
+    rating: number;
+    onRatingChange: (newRating: number) => void;
+  }
+  
+  
+
+
+export default function Rating({ rating, onRatingChange } : RatingProps) {
+    const handleStarClick = (userRating: number) => {
         onRatingChange(userRating)
     };
 
