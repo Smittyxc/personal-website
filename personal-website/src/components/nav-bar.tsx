@@ -16,7 +16,7 @@ export default function NavBar() {
                     <NavLink to="/feedback" className="h-fit py-1 px-1  text-white rounded-sm hover:bg-neutral-700 duration-300 hover:scale-110">Feedback</NavLink>
 
                     <div className="flex h-auto w-px bg-neutral-400"></div>
-                    <NavLink to="https://github.com/Smittyxc" className="flex py-2 px-3 items-center text-white rounded-sm bg-gradient-to-r from-lime-700 to-lime-800 lime-800 hover:bg-lime-900 focus:outline-2 focus:outline-offset-1 focus:outline-lime-800">
+                    <NavLink to="https://github.com/Smittyxc" className="flex py-2 px-3 items-center text-white rounded-sm bg-gradient-to-r from-lime-700 to-lime-800 lime-800 shadow-lg shadow-black/55 duration-300 hover:scale-110">
                         <img src="/github.svg" className="h-6 mr-3"></img>
                         <span>GitHub</span>
                     </NavLink>
