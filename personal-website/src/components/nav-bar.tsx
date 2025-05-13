@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
     return (
-        <nav className="bg-neutral-800 text-lg md:text-xl lg:text-2xl w-full fixed top-0 z-10">
+        <nav className="bg-neutral-800 text-lg md:text-xl lg:text-2xl w-full fixed top-0 z-20">
             <div className="h-2 bg-gradient-to-r from-green-950 via-lime-600 to-lime-950"></div>
             <div className="flex justify-between items-center">
                 <NavLink to="/" className="flex items-center space-x-3 ml-6 mt-2 bg-neutral-200 rounded-4xl shadow-lg shadow-black/60">

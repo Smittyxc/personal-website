@@ -17,7 +17,7 @@ export default function Home() {
         <div className="justify-center flex mb-8 bg bg-neutral-800">
             <button onClick={handleClick} className="bg-neutral-200 font-bold text-lime-800 shadow-xl shadow-black/20 w-fit py-2 px-4 mt-4  rounded-2xl hover:bg-neutral-300">{isOpen ? "Close" : "Photo Gallery"}</button>
         </div>
-        {isOpen && <PhotoBoard />}
+        <PhotoBoard isOpen={isOpen} />
         </>
     )
 }
